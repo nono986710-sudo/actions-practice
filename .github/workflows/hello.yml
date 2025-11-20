@@ -1,0 +1,9 @@
+name: Hello Action
+
+on: push
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hellooo <3, Action triggered from Codespace!"
