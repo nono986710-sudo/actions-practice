@@ -8,4 +8,4 @@ jobs:
   say-hello_on_pull:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Pull_req Action triggered from Codespace!"
+      - run: echo "Pull_req Action triggered from main!"

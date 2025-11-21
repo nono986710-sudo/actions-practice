@@ -1,0 +1,12 @@
+name: Scheduled Task
+
+on:
+  schedule:
+    - cron: "*/1 * * * *"   # Runs every minute (test)
+  workflow_dispatch:        # Allow manual run
+
+jobs:
+  hello_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "⏱ Schedule or manual run executed!"
